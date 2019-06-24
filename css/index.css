@@ -173,7 +173,7 @@ p {
 }
 .top-navigation nav {
   margin: 20px;
-  width: 40%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
 }
@@ -252,7 +252,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .space-images .blast {
-    display: none;
+    display: flex;
   }
 }
 @media (max-width: 500px) {
@@ -262,7 +262,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .space-images .launch {
-    display: flex;
+    display: none;
   }
 }
 .home .visit-planets {
