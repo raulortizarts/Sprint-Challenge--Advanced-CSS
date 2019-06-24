@@ -1,1 +1,22 @@
 // Mixins Here
+
+.btn-mixin (@bg-color: black, @width: 80%, @height: 15%, @border-radius: 5px, @color: white) {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: @bg-color;
+    color: @color;
+    margin: 20px;
+    width: @width;
+    height: @height;
+    font-size: 2rem;
+    border-radius: @border-radius;
+  }
+
+  .flex-mixin(@justify: space-between, @align, @direction: column) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+    flex-direction: @direction;
+  }
