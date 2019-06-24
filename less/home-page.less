@@ -163,7 +163,7 @@
 
         @media @phone {
 
-          .btn-mixin (blue, 100%, 50%, 5px, white);
+          .btn-mixin (@btn-bg-color, 100%, 50%, 5px, white);
           margin: 0 20px 0 20px;
           display: flex;
           justify-content: center;
@@ -172,7 +172,9 @@
         }
 
         &:hover {
-          background-color: lighten (teal);
+         
+         
+          background-color: lighten (@btn-bg-color)
         }
           
       }

@@ -165,7 +165,7 @@ p {
 }
 .top-navigation {
   width: 100%;
-  background-color: #81848E;
+  background-color: #F6F6F6;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -351,7 +351,7 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
-    background-color: blue;
+    background-color: #22283A;
     color: white;
     margin: 20px;
     width: 100%;
@@ -366,7 +366,7 @@ footer {
   }
 }
 .home .walk .walk-text .btn:hover {
-  background-color: lighten teal;
+  background-color: lighten #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
